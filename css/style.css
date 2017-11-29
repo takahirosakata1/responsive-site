@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+html {
+    font-size: 62.5%;
+    /* ベースとなるフォントサイズの定義 */
+}
+
+body {
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    /* フォントの種類 */
+    font-size: 1.4rem;
+    /* フォントサイズ */
+    line-height: 1.6;
+    /* 行間 */
+    letter-spacing: .1em;
+    /* 文字間隔 */
+    color: #4c4c4c;
+    /* 文字色 */
+    background-color: #f5f5f5;
+    /* 背景色 */
+}
+
+.flexible-images {
+
+    background-image: url("https://preview.c9users.io/takahirosakata/techacademy-webdesign-cloned/portfolio/images/img_umi.jpg.jpg");
+
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    max-height: 500px;
+    min-height: 250px;
+}
+
+
+
+#skills {
+    background-color: #ffffff;
+}
+
+
+#skills .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#skills h2 {
+    margin-bottom: 50px;
+    color: #808080;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+
+h3.text-center {
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    background-color: #d3d3d3;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.skill-box {
+    width: 200px;
+    height: 200px;
+
+    margin-right: 10px;
+    margin-bottom: 50px;
+    background-color: #a9a9a9;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+#skills .container p {
+    line-height: 150px;
+}
+
+
+
+
+
+#contact h2 {
+    margin-top: 100px;
+    color: #808080;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+
+
+
+#contact .button {
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: block;
+
+    width: 300px;
+    margin: auto;
+    padding: 5px 0;
+
+    text-align: center;
+
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #a9a9a9;
+
+}
