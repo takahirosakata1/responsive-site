@@ -22,16 +22,30 @@ body {
 }
 
 .flexible-images {
-
     background-image: url("https://preview.c9users.io/takahirosakata/techacademy-webdesign-cloned/portfolio/images/img_umi.jpg.jpg");
-
+    height: 500px;
     width: 100%;
     background-size: cover;
     background-position: center center;
-    max-height: 500px;
-    min-height: 250px;
 }
 
+/*PC*/
+
+@media screen and (min-width: 769px) {
+    .flexible-images {
+        height: 500px;
+    }
+    /*ここにpc用スタイルを記述*/
+}
+
+/* smartPhone */
+
+@media screen and (max-width: 768px) {
+    .flexible-images {
+        height: 250px;
+    }
+    /*ここにスマホ用スタイルを記述*/
+}
 
 
 #skills {
